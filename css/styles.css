@@ -101,7 +101,7 @@ img {
 /* Hero - START ----------------------------------------------------- */
 .hero {
     background: var(--primary-color);
-    height: 800px;
+    height: 100vh;
 }
 
 .hero-flex {
@@ -109,10 +109,32 @@ img {
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding: 12rem 0;
+    padding: 14rem 0;
 }
 
 .hero-flex .hero-img {
     width: 400px;
+}
+
+.hero-flex .hero-header {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    line-height: 1.4;
+}
+
+.hero-flex .hero-header::first-letter {
+    color: var(--secondary-color);
+    font-size: 4rem;
+    font-family: "Baskervville SC", serif;
+}
+
+.hero-flex .hero-subheader,
+.hero-flex .hero-text {
+    margin-bottom: 1rem;
+}
+
+.hero-flex .hero-btns {
+    display: flex;
+    gap: 2rem;
 }
 /* Hero - END ----------------------------------------------------- */
