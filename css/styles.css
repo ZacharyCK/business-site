@@ -53,6 +53,10 @@ img {
     background: var(--primary-color);
     border-bottom: 1px solid #dddddd;
     box-shadow: #eeeeee 0 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .navbar-flex {
@@ -93,3 +97,22 @@ img {
     transform: scaleX(1);
 }
 /* NavBar - END ----------------------------------------------------- */
+
+/* Hero - START ----------------------------------------------------- */
+.hero {
+    background: var(--primary-color);
+    height: 800px;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 12rem 0;
+}
+
+.hero-flex .hero-img {
+    width: 400px;
+}
+/* Hero - END ----------------------------------------------------- */
